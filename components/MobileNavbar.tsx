@@ -4,7 +4,6 @@ import { useState } from "react";
 import { RiMenu4Fill, RiCloseFill, RiTwitterXFill } from "react-icons/ri";
 import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { MdHelpOutline } from "react-icons/md";
-import Image from "next/image";
 
 export const MobileNavbar = () => {
     const [click, setClick] = useState<boolean>(false);
