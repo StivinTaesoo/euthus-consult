@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import { RiTwitterXFill } from "react-icons/ri";
 import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
