@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import { Navbar } from "./Navbar";
 import { motion } from "framer-motion";
 
-export default function NewHeroSection() {
+export default function HeroSection() {
     const [activeImage, setActiveImage] = useState(0);
 
     const next = () => {
@@ -12,11 +12,11 @@ export default function NewHeroSection() {
             ? setActiveImage(0)
             : setActiveImage(activeImage + 1);
     };
-    const prev = () => {
-        activeImage === 0
-            ? setActiveImage(slideImages.length - 1)
-            : setActiveImage(activeImage - 1);
-    };
+    // const prev = () => {
+    //     activeImage === 0
+    //         ? setActiveImage(slideImages.length - 1)
+    //         : setActiveImage(activeImage - 1);
+    // };
 
     useEffect(() => {
         const timer = setTimeout(() => {
