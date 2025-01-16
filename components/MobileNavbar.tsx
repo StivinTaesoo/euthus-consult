@@ -49,7 +49,7 @@ export const MobileNavbar = () => {
                 {/* Logo */}
                 <div className="flex gap-2 items-center">
                     <img
-                        src="/images/Euthus-logo.jpeg"
+                        src="./images/Euthus-logo.jpeg"
                         alt="logo"
                         className="w-[50px] h-[50px] border-2 rounded"
                     />

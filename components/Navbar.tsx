@@ -45,7 +45,7 @@ export const Navbar = () => {
                 {/* Logo */}
                 <div className="flex gap-2 items-center">
                     <img
-                        src="/images/Euthus-logo.jpeg"
+                        src="./images/Euthus-logo.jpeg"
                         alt="logo"
                         className="w-[60px] h-[60px] rounded"
                     />
