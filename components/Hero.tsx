@@ -3,6 +3,7 @@ import { slideImages } from "@/utils/constants";
 import React, { useEffect, useState } from "react";
 import { Navbar } from "./Navbar";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function HeroSection() {
     const [activeImage, setActiveImage] = useState(0);
@@ -35,14 +36,14 @@ export default function HeroSection() {
                 <div
                     className={
                         index === activeImage
-                            ? `w-full h-[400px]  bg-cover bg-center relative md:h-[600px]`
+                            ? `w-full h-[500px]  bg-cover bg-center relative md:h-[600px]`
                             : `hidden`
                     }
                     style={{ backgroundImage: `url(${img.src})` }}
                     key={index}
                 >
-                    <div className="w-full h-full   bg-transGrey absolute top-0  flex flex-col  items-center justify-center md:items-left">
-                        <div className="absolute top-40 left-4 text-center md:left-[100px] lg:left-[250px] md:text-left">
+                    <div className="w-full h-full bg-transGrey absolute top-0 flex flex-col  items-center justify-center ">
+                        <div className="absolute top-40 flex flex-col items-center justify-center text-center ">
                             <motion.div
                                 initial={{
                                     opacity: index === activeImage ? 0 : 0.5,
@@ -67,9 +68,14 @@ export default function HeroSection() {
                                     {img.desc}
                                 </p>
                             </motion.div>
-                            <button className="px-4 py-2 mt-8 text-white font-semibold border-current rounded bg-[orangered]">
-                                Join Training Group
-                            </button>
+                            <div className="flex flex-col gap-x-4 md:flex-row">
+                                <button className="button-eff px-4 min-w-[200px] py-2 mt-8 text-white font-semibold rounded bg-[orangered] hover:border-[1px] hover:text-[whitesmoke] hover:bg-[#ff7300]">
+                                    Join Training Group
+                                </button>
+                                <button className="button-eff px-4 min-w-[200px] py-2 mt-8 text-white font-semibold  border-[1px] rounded hover:bg-white hover:text-[#01073b]">
+                                    Get in touch
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>

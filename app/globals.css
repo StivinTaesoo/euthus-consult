@@ -11,12 +11,17 @@
 .start {
     margin: 100px auto;
     padding: 100px;
-    background: orangered;
+    background: #ff7300;
     color: #fff;
 }
 
 .sticky-nav.active {
     background: linear-gradient(90deg, rgb(0, 4, 40) 0%, rgb(1, 7, 59) 100%);
+    /* background: linear-gradient(90deg, rgb(0, 4, 40) 0%, #01073b 100%); */
+}
+
+.button-eff:hover {
+    transition: all 0.3s ease-in;
 }
 
 .nav-container ul li:after {

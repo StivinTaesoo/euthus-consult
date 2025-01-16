@@ -56,7 +56,7 @@ export const Navbar = () => {
                     <img
                         src="./images/Euthus-logo.jpeg"
                         alt="logo"
-                        className="w-[50px] h-[50px] border-2 rounded"
+                        className="w-[50px] h-[50px] border-[1px] rounded"
                     />
 
                     <div className="text-white">
@@ -88,7 +88,7 @@ export const Navbar = () => {
 
                     <Link
                         href="/contact"
-                        className="btn-effect px-4 py-1 text-white text-[18px] border-2 text-center rounded-lg shadow-lg shadow-slate-700/70 hover:bg-blue-300 hover:transition-all"
+                        className="button-eff py-2 px-4 text-white font-semibold border-[1px] rounded hover:bg-white hover:text-[#01073b] shadow-lg shadow-slate-700/70 "
                     >
                         Get in touch
                     </Link>
