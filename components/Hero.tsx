@@ -8,9 +8,11 @@ export default function HeroSection() {
     const [activeImage, setActiveImage] = useState(0);
 
     const next = () => {
-        activeImage === slideImages.length - 1
-            ? setActiveImage(0)
-            : setActiveImage(activeImage + 1);
+        if (activeImage === slideImages.length - 1) {
+            setActiveImage(0);
+        } else {
+            setActiveImage(activeImage + 1);
+        }
     };
     // const prev = () => {
     //     activeImage === 0

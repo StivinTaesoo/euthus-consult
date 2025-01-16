@@ -47,8 +47,9 @@ export const Navbar = () => {
                     <img
                         src="./images/Euthus-logo.jpeg"
                         alt="logo"
-                        className="w-[60px] h-[60px] rounded"
+                        className="w-[50px] h-[50px] border-2 rounded"
                     />
+
                     <div className="text-white">
                         <h1 className="font-bold text-lg">EUTHUS</h1>
                         <h2 className="font-bold text-md">CONSULT</h2>
