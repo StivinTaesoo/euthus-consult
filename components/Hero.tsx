@@ -1,6 +1,8 @@
 "use client";
 import { slideImages } from "@/utils/constants";
 import React, { useEffect, useState } from "react";
+import { Navbar } from "./Navbar";
+import { motion } from "framer-motion";
 
 export default function NewHeroSection() {
     const [activeImage, setActiveImage] = useState(0);
@@ -19,13 +21,14 @@ export default function NewHeroSection() {
     useEffect(() => {
         const timer = setTimeout(() => {
             next();
-        }, 8000);
+        }, 10000);
         return () => {
             clearTimeout(timer);
         };
     }, [activeImage]);
     return (
-        <div>
+        <div className="">
+            <Navbar />
             {slideImages.map((img, index) => (
                 <div
                     className={
@@ -36,14 +39,32 @@ export default function NewHeroSection() {
                     style={{ backgroundImage: `url(${img.src})` }}
                     key={index}
                 >
-                    <div className="w-full h-full   bg-transGrey absolute top-0  flex flex-col  items-left justify-center">
-                        <div className="absolute top-40 left-[250px] text-left">
-                            <h1 className="text-[28px] font-bold text-white text-shadow-2 md:text-[60px]">
-                                {img.heading}
-                            </h1>
-                            <p className="text-white text-[12px] md:text-[20px]">
-                                {img.desc}
-                            </p>
+                    <div className="w-full h-full   bg-transGrey absolute top-0  flex flex-col  items-center justify-center md:items-left">
+                        <div className="absolute top-40 left-4 text-center md:left-[100px] lg:left-[250px] md:text-left">
+                            <motion.div
+                                initial={{
+                                    opacity: index === activeImage ? 0 : 0.5,
+                                    scale: index === activeImage ? 0.5 : 0.3,
+                                }}
+                                animate={{
+                                    opacity: index === activeImage ? 1 : 0.5,
+                                    scale: index === activeImage ? 1 : 0.3,
+                                }}
+                                transition={{
+                                    ease: "linear",
+                                    duration: 1,
+                                    x: { duration: 1 },
+                                }}
+                                className="w-full"
+                            >
+                                {" "}
+                                <h1 className="text-[28px] font-bold text-white text-shadow-2 md:text-[60px]">
+                                    {img.heading}
+                                </h1>
+                                <p className="text-white max-w-[300px] text-[12px] md:text-[18px] md:max-w-[500px]">
+                                    {img.desc}
+                                </p>
+                            </motion.div>
                             <button className="px-4 py-2 mt-8 text-white font-semibold border-current rounded bg-[orangered]">
                                 Join Training Group
                             </button>

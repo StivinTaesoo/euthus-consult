@@ -5,8 +5,8 @@ export default function Home() {
     return (
         <div className="  ">
             <HeroSection />
-            <div className=" w-full h-20 bg-blue-200"></div>
-            <h1 className="start "> MY NAME IS STEPHEN TERSOO</h1>
+
+            <h1 className="w-300px start "> MY NAME IS STEPHEN TERSOO</h1>
         </div>
     );
 }
