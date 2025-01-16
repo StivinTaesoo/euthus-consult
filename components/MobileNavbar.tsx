@@ -13,7 +13,7 @@ export const MobileNavbar = () => {
     // Ensure window is available only on the client side
     useEffect(() => {
         const changeBackground = () => {
-            if (window.scrollY >= 50) {
+            if (window.scrollY >= 10) {
                 setStickyNav(true);
             } else {
                 setStickyNav(false);

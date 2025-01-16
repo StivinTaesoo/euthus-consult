@@ -6,6 +6,9 @@ export default function Home() {
             <HeroSection />
 
             <h1 className="w-300px start "> MY NAME IS STEPHEN TERSOO</h1>
+            <h1 className="w-300px start "> MY NAME IS STEPHEN TERSOO</h1>
+            <h1 className="w-300px start "> MY NAME IS STEPHEN TERSOO</h1>
+            <h1 className="w-300px start "> MY NAME IS STEPHEN TERSOO</h1>
         </div>
     );
 }
