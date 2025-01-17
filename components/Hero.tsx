@@ -1,9 +1,7 @@
 "use client";
 import { slideImages } from "@/utils/constants";
 import React, { useEffect, useState } from "react";
-import { Navbar } from "./Navbar";
 import { motion } from "framer-motion";
-import Link from "next/link";
 
 export default function HeroSection() {
     const [activeImage, setActiveImage] = useState(0);
