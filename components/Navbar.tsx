@@ -81,7 +81,7 @@ export const Navbar = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link href="/about" className="hover:text-[#9D9BA7]">
+                        <Link href="/courses" className="hover:text-[#9D9BA7]">
                             Courses
                         </Link>
                     </li>

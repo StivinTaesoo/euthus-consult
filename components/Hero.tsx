@@ -31,7 +31,6 @@ export default function HeroSection() {
     }, [activeImage]);
     return (
         <div className="">
-            <Navbar />
             {slideImages.map((img, index) => (
                 <div
                     className={
