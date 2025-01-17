@@ -2,11 +2,11 @@ export default function Contact() {
     return (
         <div className="">
             <div
-                className={`w-full h-[500px]  bg-cover bg-center relative md:h-[600px]`}
+                className={`w-full h-[400px]  bg-cover bg-center relative md:h-[600px]`}
                 style={{ backgroundImage: `url(./images/image-11.jpeg)` }}
             >
                 <div className="w-full h-full bg-transGrey absolute top-0 flex flex-col  items-center justify-center ">
-                    <div className="absolute opacity-5 top-[120px] z-[1] text-white font-bold text-[100px] text-center uppercase ">
+                    <div className="absolute opacity-5 top-[120px] z-[1] text-white font-bold text-[50px] md:text-[100px] text-center uppercase ">
                         Get In Touch
                     </div>
                     <div className="absolute top-40 z-20 flex flex-col items-center justify-center text-center ">
@@ -15,7 +15,7 @@ export default function Contact() {
                             Get In Touch
                         </h1>
                         <p className="text-white max-w-[300px] text-[12px] md:text-[18px] md:max-w-[500px]">
-                            We can reach out to us for more information and
+                            You can reach out to us for more information and
                             enquiries
                         </p>
                         <div className="flex flex-col gap-x-4 md:flex-row">

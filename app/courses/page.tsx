@@ -9,7 +9,7 @@ export default function Courses() {
                 imgSrc="./images/image-5.jpeg"
             />
             <h1>COURSES</h1>
-            <div className="px-40">
+            <div className="">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
                 sit tempora dolor. Omnis illum amet obcaecati natus odit commodi
                 dolorem, placeat nisi. Inventore in ipsa recusandae adipisci,
