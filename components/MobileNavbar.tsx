@@ -46,7 +46,7 @@ export const MobileNavbar = () => {
     }, [click]);
 
     return (
-        <div className="w-full fixed top-0 z-20">
+        <div className="w-full fixed top-0 z-30">
             <div
                 className={
                     stickNav

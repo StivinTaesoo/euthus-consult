@@ -29,7 +29,7 @@ export const Navbar = () => {
     }, []); // Empty dependency array to run this only once after mount
 
     return (
-        <div className="w-full absolute top-0 z-20">
+        <div className="w-full absolute top-0 z-30">
             {/* ******* SOCIALS BAR ************** */}
             <div className="hidden w-full justify-between items-center px-12 text-white bg-transparent md:flex">
                 <div className="flex items-center gap-x-4 py-4">

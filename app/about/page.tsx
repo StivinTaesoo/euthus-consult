@@ -1,8 +1,13 @@
-
+import HeroForPages from "@/components/HeroForPages";
 
 export default function About() {
     return (
         <div className="">
+            <HeroForPages
+                title="About Us"
+                descText="We are thrilled to let you know who we are what we stand for"
+                imgSrc="./images/image-6.jpeg"
+            />
             <h1>ABOUT</h1>
             <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem
