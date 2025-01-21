@@ -59,7 +59,7 @@ export const Navbar = () => {
                         className="w-[50px] h-[50px] border-[1px] rounded"
                     />
 
-                    <div className="text-white">
+                    <div className="text-white leading-none">
                         <h1 className="font-bold text-lg">EUTHUS</h1>
                         <h2 className="font-bold text-md">CONSULT</h2>
                     </div>
@@ -83,6 +83,11 @@ export const Navbar = () => {
                     <li>
                         <Link href="/courses" className="hover:text-[#9D9BA7]">
                             Courses
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="/jtb" className="hover:text-[#9D9BA7]">
+                            JTB
                         </Link>
                     </li>
 

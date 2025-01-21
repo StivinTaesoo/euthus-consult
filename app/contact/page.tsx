@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Contact() {
     return (
         <div className="">
@@ -19,9 +21,11 @@ export default function Contact() {
                             enquiries
                         </p>
                         <div className="flex flex-col gap-x-4 md:flex-row">
-                            <button className="button-eff px-4 min-w-[200px] py-2 mt-8 text-white font-semibold rounded bg-[orangered] hover:border-[1px] hover:text-[whitesmoke] hover:bg-[#ff7300]">
-                                Join Training Group
-                            </button>
+                            <Link href="https://chat.whatsapp.com/Es5TWvCebsYEbpXzPz50iD">
+                                <button className="button-eff px-4 min-w-[200px] py-2 mt-8 text-white font-semibold rounded bg-[orangered] hover:border-[1px] hover:text-[whitesmoke] hover:bg-[#ff7300]">
+                                    Join Training Group
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 type Props = {
     title: string;
     descText: string;
@@ -23,12 +25,17 @@ export default function HeroForPages({ title, descText, imgSrc }: Props) {
                             {descText}
                         </p>
                         <div className="flex flex-col gap-x-4 md:flex-row">
-                            <button className="button-eff px-4 min-w-[200px] py-2 mt-8 text-white font-semibold rounded bg-[orangered] hover:border-[1px] hover:text-[whitesmoke] hover:bg-[#ff7300]">
-                                Join Training Group
-                            </button>
-                            <button className="button-eff px-4 min-w-[200px] py-2 mt-8 text-white font-semibold  border-[1px] rounded hover:bg-white hover:text-[#01073b]">
-                                Get in touch
-                            </button>
+                            <Link href="https://chat.whatsapp.com/Es5TWvCebsYEbpXzPz50iD">
+                                <button className="button-eff px-4 min-w-[200px] py-2 mt-8 text-white font-semibold rounded bg-[orangered] hover:border-[1px] hover:text-[whitesmoke] hover:bg-[#ff7300]">
+                                    Join Training Group
+                                </button>
+                            </Link>
+
+                            <Link href={"./contact"}>
+                                <button className="button-eff px-4 min-w-[200px] py-2 mt-8 text-white font-semibold  border-[1px] rounded hover:bg-white hover:text-[#01073b]">
+                                    Get in touch
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>

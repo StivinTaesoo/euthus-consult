@@ -1,4 +1,5 @@
-import HeroForPages from "@/components/HeroForPages";
+import HeroForPages from "@/components/hero-sections/HeroForPages";
+import ServicesContainer from "@/components/services/ServicesContainer";
 
 export default function Services() {
     return (
@@ -8,6 +9,9 @@ export default function Services() {
                 descText="We help you register your business name and company with the Corporate Affairs Commission (CAC) in Nigeria. Let us know how we can be of help to you."
                 imgSrc="./images/image-7.jpeg"
             />
+            <div className="">
+                <ServicesContainer />
+            </div>
             <h1>SERVICES</h1>
             <div className="">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim

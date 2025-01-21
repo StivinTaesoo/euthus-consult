@@ -1,11 +1,11 @@
-import HeroForPages from "@/components/HeroForPages";
+import HeroForPages from "@/components/hero-sections/HeroForPages";
 
 export default function Courses() {
     return (
         <div className="">
             <HeroForPages
                 title="Courses"
-                descText="Our training programs are designed to equip individuals with the knowledge and skills needed to navigate the business registration process. "
+                descText="This Course is ideal for anyone looking to earn money by offering CAC Registration services, including CAC agents, CAC service providers, and business owners aiming to operate professionally."
                 imgSrc="./images/image-5.jpeg"
             />
             <h1>COURSES</h1>

@@ -61,7 +61,7 @@ export const MobileNavbar = () => {
                         alt="logo"
                         className="w-[50px] h-[50px] border-2 rounded"
                     />
-                    <div className="text-white flex flex-col">
+                    <div className="text-white flex flex-col leading-none">
                         <span className="text-[16px]">EUTHUS</span>
                         <span className="text-[14px]">CONSULT</span>
                     </div>
@@ -115,6 +115,13 @@ export const MobileNavbar = () => {
                         <li>Courses</li>
                     </Link>
                     <Link
+                        href="/jtb"
+                        className="relative"
+                        onClick={closeMobileMenu}
+                    >
+                        <li>JTB</li>
+                    </Link>
+                    <Link
                         href="/contact"
                         className="px-4 py-2 mt-2 text-white text-center text-[24px] border-[1px] text-white rounded shadow-lg shadow-slate-700/70 hover:bg-white hover:text-[#01073b]"
                         onClick={closeMobileMenu}
@@ -125,11 +132,11 @@ export const MobileNavbar = () => {
                         <FaFacebookF /> <FaInstagram /> <RiTwitterXFill />
                     </div>
                     <div className="flex flex-col text-[12px] gap-y-4">
-                        <div className="flex items-center">
+                        <div className="flex items-center  gap-x-2">
                             <MdHelpOutline />
                             <p>Have a question or need more information?</p>
                         </div>
-                        <div className="flex items-center">
+                        <div className="flex items-center gap-x-2">
                             <FaWhatsapp />
                             <p>+234 7039283570</p>
                         </div>
