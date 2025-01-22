@@ -17,7 +17,7 @@ function CourseOutline() {
     return (
         <div className="w-full   py-16 bg-[#ededee]">
             <div className="w-[90%] mx-auto md:w-[80%]">
-                <h1 className="text-5xl mb-6">Course Outline</h1>
+                <h1 className="text-3xl mb-6">Course Outline</h1>
                 <div className="grid grid-cols-1 gap-x-20 gap-y-6  justify-items-start  xl:grid-cols-2 text-[16px] md:text-[18px]">
                     <div className="flex items-center gap-4 font-semibold">
                         <FaBusinessTime />
@@ -50,46 +50,46 @@ function CourseOutline() {
                         <p>Upgrade Of Business Name To Company </p>
                     </div>
                     <div className="flex items-center gap-4 font-semibold">
-                        <MdOutlineDelete className="text-2xl" />
+                        <MdOutlineDelete className="" />
                         <p>
                             Step By Step on How to Delete A Business Name From
                             CAC Portal{" "}
                         </p>
                     </div>
                     <div className="flex items-center gap-4 font-semibold">
-                        <MdOutlineMenuBook className="text-2xl" />
+                        <MdOutlineMenuBook className="" />
                         <p>Ebook Publishing Course</p>
                     </div>
                     <div className="flex items-center gap-4 font-semibold">
-                        <MdSupportAgent className="text-2xl" />
+                        <MdSupportAgent className="" />
                         <p>
                             Access to an ACCREDITED agent portal for use! (T & C
                             APPLY)
                         </p>
                     </div>
                     <div className="flex items-center gap-4 font-semibold">
-                        <SiCoinmarketcap className="text-2xl" />
+                        <SiCoinmarketcap className="" />
                         <p>
                             Practical Ways To Market Your Business Both Online &
                             Offline
                         </p>
                     </div>
                     <div className="flex items-center gap-4 font-semibold">
-                        <MdPayment className="text-2xl" />
+                        <MdPayment className="" />
                         <p>How To Pay The N150 CAC Penalty Fee</p>
                     </div>
                     <div className="flex items-center gap-4 font-semibold">
-                        <MdFreeCancellation className="text-2xl" />
+                        <MdFreeCancellation className="" />
                         <p>Pre-Registration Share Correction </p>
                     </div>
                     <div className="flex items-center gap-4 font-semibold">
-                        <MdFreeCancellation className="text-2xl" />
+                        <MdFreeCancellation className="" />
                         <p>Lifetime access to the CAC mentorship group </p>
                     </div>
                 </div>
                 <div className="text-lg font-semibold mt-4 p-4 border-[1px] rounded bg-white text-center">
                     <p>Course registration fee:</p>
-                    <div className="flex flex-col gap-10 justify-center items-center text-center md:flex-row">
+                    <div className="flex flex-col gap-4 justify-center items-center text-center md:flex-row md:gap-10">
                         <div className="text-center">Regular N100,000</div>
                         <div className="text-center">
                             Limited time offer <strong>N10,000</strong> only
