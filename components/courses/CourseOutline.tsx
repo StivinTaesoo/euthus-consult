@@ -1,5 +1,4 @@
 import { FaBusinessTime } from "react-icons/fa";
-import { FaBuildingNgo } from "react-icons/fa6";
 import { GrUpgrade } from "react-icons/gr";
 import {
     MdAllInbox,
@@ -10,7 +9,6 @@ import {
     MdPayment,
     MdSupportAgent,
 } from "react-icons/md";
-import { PiTrademark } from "react-icons/pi";
 import { VscOrganization } from "react-icons/vsc";
 import { RiOrganizationChart } from "react-icons/ri";
 import { SiCoinmarketcap } from "react-icons/si";
