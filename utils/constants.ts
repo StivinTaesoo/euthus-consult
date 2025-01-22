@@ -1,5 +1,3 @@
-import { GrOrganization } from "react-icons/gr";
-
 export const slideImages = [
     {
         id: 1,
@@ -14,17 +12,9 @@ export const slideImages = [
         src: "./images/image-2.jpeg",
     },
     {
-        id: 2,
+        id: 3,
         heading: "Euthus Consult",
         desc: "We are here to provide comprehensive training programs to equip you with the knowledge and skills needed to navigate the business registration process. ",
         src: "./images/image-3.jpeg",
-    },
-];
-
-export const serviceList = [
-    {
-        id: 1,
-        title: "Business Name Registration",
-        desc: "Secure your business identity with our swift registration services.",
     },
 ];

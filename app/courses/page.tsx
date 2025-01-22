@@ -1,3 +1,4 @@
+import CourseOutline from "@/components/courses/CourseOutline";
 import HeroForPages from "@/components/hero-sections/HeroForPages";
 
 export default function Courses() {
@@ -8,6 +9,7 @@ export default function Courses() {
                 descText="This Course is ideal for anyone looking to earn money by offering CAC Registration services, including CAC agents, CAC service providers, and business owners aiming to operate professionally."
                 imgSrc="./images/image-5.jpeg"
             />
+            <CourseOutline />
             <h1>COURSES</h1>
             <div className="">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
