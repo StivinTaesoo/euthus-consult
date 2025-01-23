@@ -6,7 +6,7 @@ function Footer() {
     return (
         <div className="">
             <div
-                className={`w-full h-[560px]  bg-cover bg-center relative md:h-[400px]`}
+                className={`w-full h-[560px]  bg-cover bg-center relative md:h-[300px]`}
                 style={{ backgroundImage: `url(./images/image-10.jpeg)` }}
             >
                 <div className="w-full h-full bg-transGrey text-white absolute top-0 flex flex-col items-center justify-center ">
