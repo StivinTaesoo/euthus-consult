@@ -12,7 +12,7 @@
     margin: 100px auto;
     padding: 100px;
     background: #ff7300;
-    color: #5e5d5d;
+    color: #b3afaf;
 }
 
 .sticky-nav.active {
@@ -78,7 +78,7 @@
     text-shadow: 4px 4px 4px #00000010;
 }
 .bg-colors {
-    background: #ededee;
+    background: #010191;
     background: #e4dfd1;
     background: #ebd595;
 }

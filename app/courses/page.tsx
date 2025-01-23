@@ -1,4 +1,5 @@
 import CourseOutline from "@/components/courses/CourseOutline";
+import CoursePayment from "@/components/courses/CoursePayment";
 import HeroForPages from "@/components/hero-sections/HeroForPages";
 
 export default function Courses() {
@@ -10,6 +11,7 @@ export default function Courses() {
                 imgSrc="./images/image-5.jpeg"
             />
             <CourseOutline />
+            <CoursePayment />
             <h1>COURSES</h1>
             <div className="">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
