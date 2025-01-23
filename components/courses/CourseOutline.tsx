@@ -65,7 +65,7 @@ function CourseOutline() {
                     <div className="flex items-center gap-4 ">
                         <MdSupportAgent className="text-[#b3afaf]" />
                         <p>
-                            Access to an ACCREDITED agent portal for use! (T & C
+                            Access to an Accredited agent portal for use! (T & C
                             APPLY)
                         </p>
                     </div>

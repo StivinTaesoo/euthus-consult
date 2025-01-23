@@ -2,7 +2,12 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { RiTwitterXFill } from "react-icons/ri";
-import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import {
+    FaFacebookF,
+    FaInstagram,
+    FaLinkedinIn,
+    FaWhatsapp,
+} from "react-icons/fa";
 import { MdHelpOutline } from "react-icons/md";
 import { MobileNavbar } from "./MobileNavbar";
 
@@ -33,7 +38,8 @@ export const Navbar = () => {
             {/* ******* SOCIALS BAR ************** */}
             <div className="hidden w-full justify-between items-center px-12 text-white bg-transparent md:flex">
                 <div className="flex items-center gap-x-4 py-4">
-                    <FaFacebookF /> <FaInstagram /> <RiTwitterXFill />
+                    <FaFacebookF /> <FaInstagram /> <RiTwitterXFill />{" "}
+                    <FaLinkedinIn />
                 </div>
                 <div className="flex items-center text-[12px] gap-x-2">
                     <MdHelpOutline />
