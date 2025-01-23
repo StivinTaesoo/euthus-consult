@@ -101,7 +101,7 @@ function CourseOutline() {
                             Limited time offer <strong>N10,000</strong> only
                         </div>
                     </div>
-                    <p className="text-[14px] text-[#b3afaf] mt-2 md:text-[16px]">
+                    <p className="text-[14px] text-[#b3afaf] mt-2 md:text-[16px] leading-none">
                         Take advantage of the Limited Time Offer while it lasts
                     </p>
                 </div>
