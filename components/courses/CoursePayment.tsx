@@ -14,11 +14,11 @@ function CoursePayment() {
                     Account Details
                 </h2>
                 <div className="flex gap-x-6 flex-col md:flex-row">
-                    <p className="font-semibold">Account Number:</p>
+                    <p className="font-semibold">Account Name:</p>
                     <p className="uppercase">Akor-Ikpam Abraham</p>
                 </div>
                 <div className="flex gap-x-6 flex-col md:flex-row">
-                    <p className="font-semibold">Account Name:</p>
+                    <p className="font-semibold">Account Number:</p>
                     <p>xxxx xxx xxx</p>
                 </div>
                 <div className="flex gap-x-6 flex-col md:flex-row">

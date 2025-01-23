@@ -4,7 +4,7 @@ import FooterSocials from "./FooterSocials";
 
 function Footer() {
     return (
-        <div className="">
+        <div className="mt-10">
             <div
                 className={`w-full h-[560px]  bg-cover bg-center relative md:h-[300px]`}
                 style={{ backgroundImage: `url(./images/image-10.jpeg)` }}
