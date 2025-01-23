@@ -1,4 +1,3 @@
-import Link from "next/link";
 import TrainingGroups from "./TrainingGroups";
 import FooterLogo from "./FooterLogo";
 import FooterSocials from "./FooterSocials";
