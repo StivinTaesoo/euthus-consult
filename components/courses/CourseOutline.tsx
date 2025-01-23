@@ -90,7 +90,7 @@ function CourseOutline() {
                     </div>
                 </div>
                 <div className="text-lg  mt-4 p-4 border-[1px] rounded bg-white text-center text-[16px] md:text-[18px]">
-                    <p className="uppercase font-semibold">
+                    <p className="uppercase font-bold mb-4">
                         Course registration fee:
                     </p>
                     <div className="flex flex-col gap-4 justify-center items-center text-center md:flex-row md:gap-10">
@@ -101,7 +101,7 @@ function CourseOutline() {
                             Limited time offer <strong>N10,000</strong> only
                         </div>
                     </div>
-                    <p className="italic text-[#b3afaf] mt-2">
+                    <p className="text-[14px] text-[#b3afaf] mt-2 md:text-[16px]">
                         Take advantage of the Limited Time Offer while it lasts
                     </p>
                 </div>

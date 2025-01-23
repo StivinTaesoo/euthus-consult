@@ -2,8 +2,8 @@ import Link from "next/link";
 
 function CoursePayment() {
     return (
-        <div className="w-full max-w-[700px] mx-auto p-10">
-            <h1 className="uppercase font-bold text-3xl text-[#010191] text-center md:text-3xl">
+        <div className="w-full  max-w-[700px] mx-auto p-10 text-center md:text-left">
+            <h1 className="uppercase font-bold text-2xl text-[#010191] text-center md:text-3xl">
                 payment information
             </h1>
             <p className="text-[18px] mt-4">
@@ -13,15 +13,15 @@ function CoursePayment() {
                 <h2 className="font-bold uppercase text-[#5e5d5d]">
                     Account Details
                 </h2>
-                <div className="flex gap-x-20">
+                <div className="flex gap-x-6 flex-col md:flex-row">
                     <p className="font-semibold">Account Number:</p>
                     <p className="uppercase">Akor-Ikpam Abraham</p>
                 </div>
-                <div className="flex gap-x-20">
+                <div className="flex gap-x-6 flex-col md:flex-row">
                     <p className="font-semibold">Account Name:</p>
                     <p>xxxx xxx xxx</p>
                 </div>
-                <div className="flex gap-x-20">
+                <div className="flex gap-x-6 flex-col md:flex-row">
                     <p className="font-semibold">Bank Name:</p>
                     <p className="uppercase">Access Bank</p>
                 </div>
