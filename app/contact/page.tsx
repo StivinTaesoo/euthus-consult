@@ -1,3 +1,4 @@
+import Contacts from "@/components/contacts/Contacts";
 import Link from "next/link";
 
 export default function Contact() {
@@ -30,6 +31,7 @@ export default function Contact() {
                     </div>
                 </div>
             </div>
+            <Contacts />
             <h1>GET IN TOUCH</h1>
             <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem
