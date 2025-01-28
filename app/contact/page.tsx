@@ -42,7 +42,7 @@ export default function Contact() {
                 <p className="text-[16px] my-4 md:text-[18px] ">
                     We&apos;d love to hear from you! Whether you have a
                     question, need help, or just want to say hello, we&apos;re
-                    here to listen. If you're looking for a seasoned CAC
+                    here to listen. If you&apos;re looking for a seasoned CAC
                     training facilitator to provide expert guidance and
                     training, consider Coach AB.
                 </p>
