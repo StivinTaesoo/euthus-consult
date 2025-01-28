@@ -42,9 +42,12 @@ export default function Contact() {
                 <p className="text-[16px] my-4 md:text-[18px] ">
                     We&apos;d love to hear from you! Whether you have a
                     question, need help, or just want to say hello, we&apos;re
-                    here to listen.
+                    here to listen. If you're looking for a seasoned CAC
+                    training facilitator to provide expert guidance and
+                    training, consider Coach AB.
                 </p>
-                <div className="flex flex-col items-center justify-center my-6 gap-2 md:flex-row">
+
+                <div className="flex flex-col items-center justify-center my-6 gap-6 md:flex-row">
                     <div className="w-16 h-16 flex justify-center items-center bg-orange-300 text-5xl rounded">
                         <MdOutlinePhoneInTalk />
                     </div>

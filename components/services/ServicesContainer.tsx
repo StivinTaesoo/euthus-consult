@@ -23,7 +23,7 @@ function ServicesContainer() {
                                 Our Services
                             </p>
                             <h1 className="text-[40px] uppercase mt-4 font-bold text-white text-shadow-2 md:text-[60px] leading-none ">
-                                What We Can Do?
+                                What We Can Do
                             </h1>
                         </div>
                     </div>
