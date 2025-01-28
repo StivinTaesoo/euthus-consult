@@ -1,5 +1,6 @@
 import Contacts from "@/components/contacts/Contacts";
 import Link from "next/link";
+import { MdOutlinePhoneInTalk } from "react-icons/md";
 
 export default function Contact() {
     return (
@@ -31,16 +32,25 @@ export default function Contact() {
                     </div>
                 </div>
             </div>
-            <div className="w-[80%] mx-auto my-20">
+            <div className="w-[80%] mx-auto my-20 text-center">
                 <h1 className="text-2xl  font-bold md:text-[40px] ">
                     GET IN TOUCH <span className="text-[#091268]">WITH US</span>
                 </h1>
-                <p className="text-[#f57d1b] mt-4">Contact us today!</p>
-                <p>
+                <p className="text-[#f57d1b] text-xl font-bold mt-4">
+                    Contact us today!
+                </p>
+                <p className="text-[16px] my-4 md:text-[18px] ">
                     We&apos;d love to hear from you! Whether you have a
                     question, need help, or just want to say hello, we&apos;re
                     here to listen.
                 </p>
+                <div className="flex flex-col items-center justify-center my-6 gap-2 md:flex-row">
+                    <div className="w-16 h-16 flex justify-center items-center bg-orange-300 text-5xl rounded">
+                        <MdOutlinePhoneInTalk />
+                    </div>
+
+                    <p className="text-2xl md:text-5xl ">+234 7039283570</p>
+                </div>
             </div>
 
             <Contacts />

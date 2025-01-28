@@ -13,10 +13,10 @@ function Contacts() {
             url(./images/image-1.jpeg)`,
                 }}
             >
-                <h1 className="text-xl max-w-[90%]  md:text-2xl md:max-w-[60%] ">
-                    Feel free to give us a call or send us an email
+                <h1 className="text-2xl max-w-[90%]  md:text-4xl md:max-w-[60%] ">
+                    Feel free to give us a call or send us an email, we are
+                    always prompt to respond
                 </h1>
-                <p className="text-2xl md:text-5xl ">+234 7039283570</p>
             </div>
             <ContactForm />
         </div>
