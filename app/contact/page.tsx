@@ -37,8 +37,9 @@ export default function Contact() {
                 </h1>
                 <p className="text-[#f57d1b] mt-4">Contact us today!</p>
                 <p>
-                    We'd love to hear from you! Whether you have a question,
-                    need help, or just want to say hello, we're here to listen.
+                    We&apos;d love to hear from you! Whether you have a
+                    question, need help, or just want to say hello, we&apos;re
+                    here to listen.
                 </p>
             </div>
 
