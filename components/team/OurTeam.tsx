@@ -50,8 +50,8 @@ function OurTeam() {
                     high-impact training sessions, Coach AB has established
                     himself as a trusted expert in CAC compliance and
                     regulations. As a certified CAC training facilitator, Coach
-                    AB possesses in-depth knowledge of the Commission's laws,
-                    regulations, and guidelines.
+                    AB possesses in-depth knowledge of the Commission&apos;s
+                    laws, regulations, and guidelines.
                     <button
                         onClick={handleIsClicked}
                         className={
@@ -67,7 +67,7 @@ function OurTeam() {
                     He has worked with numerous organizations, providing
                     training and guidance on CAC compliance, company
                     registration, and business reform initiatives. Training
-                    Style and Approach Coach AB's training sessions are
+                    Style and Approach Coach AB&apos;s training sessions are
                     engaging, informative, and tailored to meet the specific
                     needs of his clients. He uses real-life examples, case
                     studies, and interactive exercises to ensure participants
