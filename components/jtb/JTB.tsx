@@ -11,7 +11,7 @@ type Props = {
 function JTB({ title, desc, image, link, bgColor }: Props) {
     return (
         <div className="items-hover w-full rounded-xl h-[500px] md:w-[400px]">
-            <div className="w-full h-[250px] bg-red-300 rounded-t-xl ">
+            <div className="w-full h-[250px] rounded-t-xl ">
                 <img
                     src={image}
                     alt=""
