@@ -10,7 +10,7 @@ import { VscOrganization } from "react-icons/vsc";
 
 function ServicesContainer() {
     return (
-        <div className="grid grid-cols-1 gap-x-2 gap-y-10 justify-items-center mt-20 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <div className="grid grid-cols-1 mx-auto gap-y-10 justify-items-center my-20 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 md:w-[80%] ">
             <Link href={"./contact"}>
                 <div
                     className={`items-hover w-[300px] h-[300px]  bg-cover bg-center relative md:h-[300px]`}

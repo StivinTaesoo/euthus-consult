@@ -44,7 +44,8 @@ export default function Contact() {
                     question, need help, or just want to say hello, we&apos;re
                     here to listen. If you&apos;re looking for a seasoned CAC
                     training facilitator to provide expert guidance and
-                    training, consider Coach AB.
+                    training, consider Coach AB to discuss your training needs
+                    and schedule a lesson.
                 </p>
 
                 <div className="flex flex-col items-center justify-center my-6 gap-6 md:flex-row">
