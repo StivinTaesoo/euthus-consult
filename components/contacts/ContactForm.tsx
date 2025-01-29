@@ -1,6 +1,6 @@
 function ContactForm() {
     return (
-        <div className="w-[90%] bg-orange-600 p-5 rounded-lg md:w-[600px] right-[10rem] md:absolute md:p-10">
+        <div className="w-[90%] bg-orange-300 p-5 rounded-lg md:w-[600px] right-[10rem] md:absolute md:p-10">
             <form action="" className="flex flex-col gap-4">
                 <div className="flex flex-col gap-2">
                     <label htmlFor="name">Name</label>

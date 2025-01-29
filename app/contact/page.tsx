@@ -36,7 +36,7 @@ export default function Contact() {
                 <h1 className="text-2xl  font-bold md:text-[40px] ">
                     GET IN TOUCH <span className="text-[#091268]">WITH US</span>
                 </h1>
-                <p className="text-[#f57d1b] text-xl font-bold mt-4">
+                <p className="text-orange-300 text-xl font-bold mt-4">
                     Contact us today!
                 </p>
                 <p className="text-[16px] my-4 md:text-[18px] ">
@@ -48,8 +48,8 @@ export default function Contact() {
                     and schedule a lesson.
                 </p>
 
-                <div className="flex flex-col items-center justify-center my-6 gap-6 md:flex-row">
-                    <div className="w-16 h-16 flex justify-center items-center bg-orange-300 text-5xl rounded">
+                <div className="flex flex-col items-center justify-center my-10 gap-6 md:flex-row">
+                    <div className="w-16 h-16 text-3xl flex justify-center items-center bg-orange-300 md:text-3xl rounded">
                         <MdOutlinePhoneInTalk />
                     </div>
 
