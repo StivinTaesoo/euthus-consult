@@ -7,7 +7,7 @@ function ContactForm() {
                     <input
                         type="text"
                         placeholder="Enter your name here"
-                        className="p-2 rounded"
+                        className="p-2 rounded focus:outline-none"
                     />
                 </div>
                 <div className="flex flex-col gap-2">
@@ -15,7 +15,7 @@ function ContactForm() {
                     <input
                         type="text"
                         placeholder="Enter your email here"
-                        className="p-2 rounded"
+                        className="p-2 rounded focus:outline-none"
                     />
                 </div>
                 <div className="flex flex-col gap-2">
@@ -25,7 +25,7 @@ function ContactForm() {
                         id=""
                         rows={4}
                         placeholder="Enter your message here"
-                        className="p-2 rounded"
+                        className="p-2 rounded focus:outline-none"
                     ></textarea>
                 </div>
                 <button
