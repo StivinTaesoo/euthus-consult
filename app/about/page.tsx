@@ -18,7 +18,7 @@ export default function About() {
                 </p>
                 <p className="w-full mt-[1rem] text-[16px] md:text-[18px]">
                     CAC registration is one side gig that is simple to learn and
-                    easy to implement. You don't have to be a lawyer or an
+                    easy to implement. You don&apos;t have to be a lawyer or an
                     accountant to do this. The CAC has broken the monopoly that
                     existed before now and made it open. The internet on the
                     other hand has made it very easy for “anyone” with internet

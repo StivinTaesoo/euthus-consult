@@ -27,7 +27,7 @@ export default function HeroSection() {
         return () => {
             clearTimeout(timer);
         };
-    }, [activeImage]);
+    }, [activeImage, next]);
     return (
         <div className="">
             {slideImages.map((img, index) => (
