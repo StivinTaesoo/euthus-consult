@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { RiMenu4Fill, RiCloseFill, RiTwitterXFill } from "react-icons/ri";
