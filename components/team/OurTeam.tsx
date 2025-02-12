@@ -44,7 +44,7 @@ function OurTeam() {
                     </div>
                 </div>
             </div>
-            <div className="w-[95%] mx-auto text-[16px] leading-7 shadow-xl p-4 md:text-[18px] md:w-[600px]">
+            <div className="w-[95%] mx-auto text-[16px] leading-7 shadow-xl p-6 md:text-[18px] md:w-[500px]">
                 <p>
                     Coach AB is a seasoned training facilitator with a
                     specialized focus on Corporate Affairs Commission (CAC)
