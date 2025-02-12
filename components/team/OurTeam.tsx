@@ -10,7 +10,7 @@ function OurTeam() {
         setIsClicked(!isClicked);
     };
     return (
-        <div className="my-20 gap-x-2 md:flex items-center">
+        <div className="mt-20 gap-x-2 md:flex items-center">
             <div>
                 <div
                     className="w-full py-10 text-white uppercase flex flex-col gap-y-6 items-center justify-center bg-no-repeat bg-cover md:w-[700px]"
